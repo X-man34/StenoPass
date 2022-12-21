@@ -1,28 +1,5 @@
-1. Make backup of file to be protected. 
-2. move the StenoPass folder somewhere other than program files C:\users\whoever\AppData\Local for example
-3. run Bat_To_Exe_Converter_x64.exe
-3.5 open stenoPass.bat
-4. change line 1 so  it says set password=*your password*
-5. place the file you want to protect (or a copy of it) in the StenoPass folder. 
-6. in Bat_To_Exe_Converter change protectedfile (on line 2) to the name of the file you want to protect, including the file extension.  Do this the same way as the first line. 
-6.5 in Bat_To_Exe_Converter click save and then click run. 
-     Make sure to close the protected file when it shows up after clicking run.  
-     You should see a file called output.bmp show up in the stenoPass folder 
-     and the protected file should be deleted from the stenpass folder
-7. in Bat_To_Exe_Converter check the "icon" checkbox and select the icon file provided. 
-8. change the exe format to 32 bit | Windows (invisible). 
-9. make sure the "working directory" and "extract to" dropdown menus are on current directory
-10. in Bat_To_Exe_Converter save and click convert.  Save the file as StenoPass.exe
-10.5 close Bat_To_Exe_Converter
-11. Make a shortcut for StenoPass.exe and put in on the desktop or wherever. 
-12. To use Steno pass, run the executable and enter your password.
-   The protected file will be unpacked and unencrypted and opened automaticlly
-   when done using the protected file, save and close it. The file will be
-   automatically repackaged into its hidden form.
-
-Note: People will be able to see your password if you don't delete stenoPass.bat after making the exe file. 
-Also, you won't be able to change your password without going through this whole process again, 
-so make sure you get it right. 
+1. run installer exe and carefully follow the directions.  that should be all you need to do. 
+2. in order to run the installer, double click installer.bat. 
 
 Further note: if you have antivirus, it will likly be a problem. 
 You will have to make an exemtion for the exe file once its created.  
